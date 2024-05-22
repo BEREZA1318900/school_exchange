@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fcfcee
+}
+.header {
+    background-image: url(bg.jpg);
+    height: 27vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: #D67E35;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: #270094;
+}
+
+
+.cart {
+    position: relative;
+
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.cart-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #270094;
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #3a00d9;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #270094;
+}
+
+
+.history-images {
+    position: relative;
+}
+
+.history-holder {
+    display: flex;
+}
+
+.imgages-1 {
+    position: absolute;
+    z-index: 0;
+    top: 300px;
+    left: 0px;
+}
+
+.imgages-2 {
+    position: absolute;
+    z-index: 999;
+    top: 430px;
+    left: 840px;
+}
+
+.imgages-3 {
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    left: -10px;
+}
+.text4 {
+    margin-right: 320px;
+}
+.text5 {
+    margin-left: 320px;
+}
+.imgages-4 {
+    position: absolute;
+    z-index: 999;
+    top: -20px;
+    left: 400px;
+}
+.text6 {
+    margin-right: 520px;
+}
+.imgages-5 {
+    position: absolute;
+    z-index: 999;
+    top: 280px;
+    left: 620px;
+}
+.imgages-6 {
+    position: absolute;
+    z-index: 999;
+    top: -30px;
+    left: 540px;
+}
+.text7 {
+    margin-right: 620px;
+}
+.imgages-8 {
+    position: absolute;
+    z-index: 999;
+    top: -270px;
+    left: 260px;
+}
+.footer {
+    background-color: #000;
+    padding: 50px 0px;
+    color: #fff;
+    text-align: center;
+}

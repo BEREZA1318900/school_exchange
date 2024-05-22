@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fcfcee
+}
+.header {
+    background-image: url(bg.jpg);
+    height: 27vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: #D67E35;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+
+    margin-right: 25px;
+
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+    color: #270094;
+}
+
+
+.cart {
+    position: relative;
+
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.cart-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+
+    transition: color 0.3s linear;
+}
+
+.num:hover {
+    color: #270094;
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #3a00d9;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+    transition: background-color 0.2s linear;
+}
+
+.button:hover {
+    background-color: #270094;
+}
+
+.footer {
+    background-image: url(black.png);
+    padding-bottom: 30px;
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.widget{
+    display:flex;
+    justify-content:center;
+    height: 300px;
+    }
+.text_zag {
+    color: #d67e35;
+}
+.text {
+    color: #D67E35;
+    padding-left: 50px;
+    font-size: 19px;
+    text-decoration: none;
+}
+.text2 {
+    padding-left: 50px;
+    font-size: 22px;
+    color: #D67E35;
+}
+.text3 {
+    color: #D67E35;
+    padding-left: 50px;
+    font-size: 19px;
+    text-decoration: none;
+}
+.foo {
+    color: #D67E35;
+    padding-left: 50px;
+    font-size: 19px;
+    text-decoration: none;
+}
+.c-button {
+    min-width: 100px;
+    font-family: inherit;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676d7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .c-button:hover {
+    background: #1d49aa;
+  }
+  
+  .c-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbd6ee;
+  }
